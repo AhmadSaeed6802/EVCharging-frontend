@@ -49,7 +49,7 @@ export default function Contact() {
 
   const formData = new FormData(e.target);
 
-  const response = await fetch("https://formspree.io/f/xwvnzdlq", {
+  const response = await fetch("https://formspree.io/f/mojnzakl", {
     method: "POST",
     body: formData,
     headers: {
@@ -105,7 +105,7 @@ export default function Contact() {
             <div className="info-content">
               <h4>Email Us</h4>
               <p>
-                mtalha7190@gmail.com<br/>
+                infobijlipoint1@gmail.com<br/>
                 We reply within 24 hours
               </p>
             </div>
